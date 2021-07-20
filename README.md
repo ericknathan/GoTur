@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="GoTur" src=".github/images/logo.svg" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=License&message=MIT&color=295C57&labelColor=404040&style=flat-square" alt="License" >
 
-## Available Scripts
+ <img src="https://img.shields.io/static/v1?label=Hackaton&message=Reboot+The+World&color=295C57&labelColor=404040&style=flat-square" alt="Hackathon Reboot The World" />
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
+![Mockup](.github/images/mockup.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Projeto
+GoTur é perfeito para quem quer agendar viagens no Estado de Goiás, ele oferece diversos pacotes que o usuário final pode escolher para viagem, como familiar, luxo e aventura, tecnológica, de uma forma muito organizada e democrática. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Este é um projeto desenvolvido durante o hackathon Reboot The World, organizado pela **[Shawee](https://shawee.io/pt/)**, apresentado dos dias 16 a 24 de Julho de 2021.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Tecnologias
 
-### `yarn build`
+- ![ReactJS](https://reactjs.org/)
+- ![Typescript](https://www.typescriptlang.org/)
+- ![Styled Components](https://styled-components.com/)
+- ![Firebase](https://firebase.google.com/)
+- ![React-Router-Dom](https://reactrouter.com/)
+- ![React-Modal](https://github.com/reactjs/react-modal)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Executando o projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone o projeto e acesse o diretório onde foi criado.
 
-### `yarn eject`
+```bash
+$ git clone https://github.com/ericknathan/GoTur.git
+$ cd GoTur
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Utilize o **yarn install** ou o **npm install** para instalar as dependências do projeto.
+Em seguida, inicie o projeto.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Lembre-se de criar o seu App no Firebase para obter as credencias do Banco de Dados e Autenticação. Em seguida, defina no arquivo .env as configurações do seu App (remova o example do arquivo .env.example e adicione .local).
+ 
+ ```cl
+REACT_APP_API_KEY=
+REACT_APP_AUTH_DOMAIN=
+REACT_APP_DATABASE_URL=
+REACT_APP_PROJECT_ID=
+REACT_APP_STORAGE_BUCKET=
+REACT_APP_MESSAGING_SENDER_ID=
+REACT_APP_APP_ID=
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+O app estará disponível para acesso em seu navegador em http://localhost:3000.
 
-## Learn More
+Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database e Authtentication.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 Licença
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+<br />
