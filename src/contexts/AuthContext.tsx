@@ -23,7 +23,20 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
     const [user, setUser] = useState<User>();
 
     useEffect(() => {
-
+        const unsubscribe = auth.onAuthStateChanged(user => {
+            if(user) {
+                const { displayName, photoURL, uid } = user;
+                setUser({
+                    id: uid,
+                    name: displayName || "Usuário",
+                    avatar: photoURL || 'https://i.ibb.co/MBKsMWP/Vector.png'
+                });
+            }
+          });
+      
+          return () => {
+            unsubscribe();
+          }
     }, [])
 
     async function signInWithGoogle() {

@@ -1,14 +1,31 @@
 import styled from 'styled-components';
 
 const HeaderContainer = styled.header`
-  height: 20rem;
-  background-image: url('https://i.ibb.co/kDpfrXz/bg.png');
-padding: 50px;
+  max-height: 40vh;
+  background-image: url('https://i.ibb.co/0MkX1ry/Group-1.png');
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 27px;
 `;
 
 const NavContainer = styled.nav`
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
+`;
+
+const NavButtons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+
+  a {
+    color: #fff;
+  }
 `;
 
 const Logo = styled.img`
@@ -18,6 +35,13 @@ const Logo = styled.img`
 
 const Profile = styled.div`
 
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50px;
+      outline: 2px solid #fff;
+      border: 2px solid transparent;
+    }
 `;
 
-export { HeaderContainer, NavContainer, Logo, Profile };
+export { HeaderContainer, NavContainer, NavButtons, Logo, Profile };

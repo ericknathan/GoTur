@@ -1,15 +1,14 @@
-import { ReactNode } from 'react';
+import { ReactNode, ButtonHTMLAttributes } from 'react';
 import { ButtonStyled } from './styles';
 
-type ButtonProps = {
-    children: ReactNode;
-}
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+    children: ReactNode
+};
 
-
-export function Button(props: ButtonProps) {
+export function Button({children, ...props}: ButtonProps) {
     return (
-        <ButtonStyled>
-            {props.children}
+        <ButtonStyled {...props}>
+            {children}
         </ButtonStyled>
     )
 }

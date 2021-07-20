@@ -1,37 +1,51 @@
 import logo from '../../assets/images/logo.svg';
 
-import {HeaderContainer, NavContainer, Logo, Profile} from './styles'
+import { Input } from '../../components/Input';
+
+import {HeaderContainer, NavContainer, NavButtons, Logo, Profile} from './styles'
 
 import { useAuth } from '../../hooks/useAuth';
 
 import { Button } from '../Button';
 
-export function Header() {
-    const { user } = useAuth();
+type HeaderProps = {
+    showSearch?: boolean
+}
+
+export function Header({showSearch = false}: HeaderProps) {
+    const { user, signInWithGoogle } = useAuth();
     return (
         <HeaderContainer>
             <NavContainer>
                 <Logo src={logo} alt="Logo GoTur" />
-                <div className="navigation-buttons">
+                <NavButtons>
                     <a href="/">Início</a>
-                    <a href="/">Destinos</a>
-                    <a href="/">Pacotes +</a>
-                </div>
+                    <a href="/destinations">Destinos</a>
+                    <a href="/inspirations">Inspirações</a>
+                    <a href="/personalize">Personalização</a>
+                </NavButtons>
                 <Profile>
                     {
                         !user ? (
-                            <Button>Entrar</Button>
+                            <Button onClick={signInWithGoogle}>Entrar</Button>
                         ) : (
-                            <div className="profile">
+                            <Profile>
                                 <a href="/">
-                                    <i className="fas fa-bars"></i>
-                                    <img src={user?.avatar} alt="Imagem de usuário" />
+                                    <img src={user.avatar} alt="Imagem de usuário" referrerPolicy="no-referrer"/>
                                 </a>
-                            </div>
+                            </Profile>
                         )
                     }
                 </Profile>
             </NavContainer>
+            {
+                showSearch && (
+                    <>
+                        <Input placeholder="Busque por um destino"/>
+                        <Button>Quero conhecer!</Button>
+                    </>
+                )
+            }
         </HeaderContainer>
     )
 }

@@ -5,8 +5,16 @@ const ButtonStyled = styled.button`
     background: #295C57;
     color: #fff;
     border: none;
-    width: 150px;
+    min-width: 150px;
     border-radius: 15px;
+    cursor: pointer;
+    padding: 0 15px;
+
+    &#cancel {
+        background-color: #E73F5D;
+        color: #DBDCDD;
+    }
+
 `;
 
 
