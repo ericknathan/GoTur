@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="GoTur" src=".github/images/logo.svg" />
+  <img alt="GoTur" src=".github/images/logo.png" />
 </h1>
 
 <p align="center">
