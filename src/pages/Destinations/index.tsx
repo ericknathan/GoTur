@@ -10,7 +10,7 @@ export function Destinations() {
   const [cities, setCities] = useState([]);
     
     useEffect(() => {
-        database.ref('cities').once('value').then(index => setCities(index.val())).then(() => console.log("AA"));
+        database.ref('cities').once('value').then(index => setCities(index.val()));
     }, []);
 
   return (

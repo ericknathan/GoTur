@@ -5,6 +5,7 @@ import { Destinations } from './pages/Destinations';
 import { Inspiration } from './pages/Inspiration';
 import { Personalize } from './pages/Personalize';
 import { Destination } from './pages/Destination';
+import { Pack } from './pages/Pack';
 
 import theme from './styles/theme';
 import { ThemeProvider } from 'styled-components';
@@ -24,6 +25,7 @@ function App() {
             <Route exact path="/destination/:name" component={Destination} />
             <Route exact path="/inspirations" component={Inspiration} />
             <Route exact path="/personalize" component={Personalize} />
+            <Route exact path="/pack/:name" component={Pack} />
           </Switch>
         </AuthContextProvider>
       </ThemeProvider>
