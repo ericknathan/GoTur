@@ -1,0 +1,120 @@
+{
+  "cities" : [ "Caldas Novas", "Pirenópolis", "Cavalcante" ],
+  "destination" : {
+    "Caldas Novas" : {
+      "activities" : "Águas termais, Ecoturismo, Náutico",
+      "attractions" : "Museus, Parques e Jardins",
+      "lat" : "-17.7452",
+      "lng" : "-48.6253",
+      "photo" : "https://images.ctfassets.net/gxwgulxyxxy1/5dsbBWouw0JeeoPAyiWTCL/10198d7143ff4a554cdcde22b7e8cb0b/Caldas_Novas.jpg",
+      "touristic_attractions" : [ {
+        "lat" : "-17.72183854030279",
+        "lng" : "-48.62973027291786",
+        "name" : "Jardim Japonês",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipNL05AJ37yDvw0_5F5vN8f0dl9T0ugKT60oya78=w408-h305-k-no", "https://i.pinimg.com/originals/fe/e5/55/fee555feff652592db5ef50ddba332df.jpg" ],
+        "type" : "Jardim"
+      }, {
+        "lat" : "-17.74005783094898",
+        "lng" : "-48.619991154088474",
+        "name" : "Praça Mestre Orlando",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipMLdJX2eixjzCkZKSGpqgjmRm-Qakvdmgwef4tp=w408-h306-k-no", "https://fotos.caldasnovasgo.com.br/19108cdf71cdc0fe211ecfad50936492.jpg" ],
+        "type" : "Parque"
+      }, {
+        "lat" : "-17.744899711336306",
+        "lng" : "-48.62037678957454",
+        "name" : "Casarão dos Gonzaga",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipPsk2-wW5K1O-ybIhxNAHM_mN3jzHYZyTlRtGH4=w408-h306-k-no" ],
+        "type" : "Museu"
+      }, {
+        "lat" : "-17.72540196322264",
+        "lng" : "-48.6162569161787",
+        "name" : "Monumento das Aguas",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipPqPYB6kAacrLq96pNWfB6GNJ1AB3B7tBIUaadn=w426-h240-k-no" ],
+        "type" : "Hotel"
+      }, {
+        "lat" : "-17.730634271610977",
+        "lng" : "-48.61780186859388",
+        "name" : "Primeira casa de Caldas Novas",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipO49GMHOO7t2qbopdsTLnj-TU3puN4MnWXz13Bt=w408-h306-k-no" ],
+        "type" : "Museu"
+      }, {
+        "lat" : "-17.762239400322386",
+        "lng" : "-48.65853822348151",
+        "name" : "Parque Estadual da Serra de Caldas Novas",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipMqKS3AWTYVyW65GVWVHzDxJcyb_53MNZW8_EnB=w408-h544-k-no" ],
+        "type" : "Parque"
+      }, {
+        "lat" : "-17.72858384888105",
+        "lng" : "-48.62568885709351",
+        "name" : "Monumento das Águas Quentes",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipOmMApkzSagZFk7lMAVlJ_7Bmf00ISTi1w4UpJL=w408-h306-k-no" ],
+        "type" : "Monumento"
+      } ]
+    },
+    "Cavalcante" : {
+      "activities" : "Águas termais, Ecoturismo, Náutico",
+      "attractions" : "Cachoeiras e montanhas",
+      "lat" : "-17.5787",
+      "lng" : "-52.5424",
+      "photo" : "https://www.setpar.com.br/app/uploads/2019/05/cidade-2-mineiros-go.jpg",
+      "touristic_attractions" : [ {
+        "lat" : "-13.794499786440348",
+        "lng" : "-47.45608796956229",
+        "name" : "Portal da Cidade",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipPPuFMYDT66VPu2LnjDuTh7dsDzrPgN9h4TRaJZ=w408-h544-k-no" ],
+        "type" : "Cachoeira"
+      }, {
+        "lat" : "-13.689510848309691",
+        "lng" : "-47.46256331158449",
+        "name" : "Mirante Da Nova Aurora",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipMypZCBuiwZE51HsNrVZ8wmBzcoyECh2mm6udqw=w408-h306-k-no" ],
+        "type" : "Montanhas"
+      }, {
+        "lat" : "-13.826599808733345",
+        "lng" : "-47.44210625810386",
+        "name" : "Cachoeira São Bartolomeu",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipNRrx2EmX3RfVnA9mOitj3JzplvQ5Fh8ruMySxR=w408-h306-k-no" ],
+        "type" : "Cachoeira"
+      } ]
+    },
+    "Pirenópolis" : {
+      "activities" : "Águas termais, Ecoturismo, Náutico",
+      "attractions" : "Museus e Jardins",
+      "lat" : "-15.8538",
+      "lng" : "-48.9586",
+      "photo" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Piri_03.jpg/1200px-Piri_03.jpg",
+      "touristic_attractions" : [ {
+        "lat" : "-15.85058810431936",
+        "lng" : "-48.96020818261926",
+        "name" : "Ponte Pênsil Dona Benta",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipMNHdSJkDyv41AuulMhKcFj9esFsRVUQZC62oDw=w408-h306-k-no" ],
+        "type" : "Jardim"
+      }, {
+        "lat" : "-15.852161075118458",
+        "lng" : "-48.943201634793446",
+        "name" : "Rodas do Tempo",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipMXDKLVekbJXQH-BlzGOq5q2IdahePuVdasyHhl=w426-h240-k-no" ],
+        "type" : "Museu"
+      }, {
+        "lat" : "-15.852818285616372",
+        "lng" : "-48.961572084430905",
+        "name" : "Museu Das Cavalhadas",
+        "photos" : [ "https://lh5.googleusercontent.com/p/AF1QipOygxFOsZo7fEpCvg1Sp39uTrjzb2C8pKrERKLb=w408-h306-k-no" ],
+        "type" : "Museu"
+      } ]
+    }
+  },
+  "packs" : [ {
+    "destinations" : [ "Caldas Novas", "Cavalcante" ],
+    "name" : "Econômico",
+    "photo" : "https://www.suno.com.br/wp-content/uploads/2019/01/out-of-the-money.jpg"
+  }, {
+    "destinations" : [ "Caldas Novas", "Pirenópolis", "Cavalcante" ],
+    "name" : "Família",
+    "photo" : "https://cf.ltkcdn.net/family/images/std/200821-800x533r1-family.jpg"
+  }, {
+    "destinations" : [ "Pirenópolis" ],
+    "name" : "Lua de mel",
+    "photo" : "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/12/lua-de-mel-destinos-dicas-brasil-capa2019-820x430.jpg"
+  } ]
+}

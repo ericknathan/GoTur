@@ -40,6 +40,7 @@ export function Pack() {
         packs
           .val()
           .filter((pack: any) => pack.name === packName)[0]
+          // eslint-disable-next-line array-callback-return
           ['destinations'].map((destination: any) => {
             database
               .ref(`destination/${destination}`)
@@ -55,7 +56,7 @@ export function Pack() {
               })
           })
       })
-  }, [])
+  }, [packName])
 
   return (
     <>

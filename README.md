@@ -55,6 +55,8 @@ REACT_APP_MESSAGING_SENDER_ID=
 REACT_APP_APP_ID=
 ```
 
+Também será necessário seguir os padrões do projeto, para isso basta importar o arquivo [database_template.json](database_template.json) no Realtime Firebase.
+
 O app estará disponível para acesso em seu navegador em http://localhost:3000.
 
 Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database e Authtentication.
